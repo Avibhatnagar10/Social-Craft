@@ -87,8 +87,8 @@ npm start
 
 
 ## 🎨 UI Preview
-![User Form Preview](https://via.placeholder.com/800x400)
-![Admin Dashboard Preview](https://via.placeholder.com/800x400)
+
+[Screenshot (188)](https://github.com/user-attachments/assets/22c57cdd-57cf-44c7-af9b-9a810f726757)
 
 ## 🤝 Contribution Guidelines
 1. Fork the repository.
@@ -100,6 +100,6 @@ npm start
 This project is licensed under the **MIT License**.
 
 ---
-![Screenshot (188)](https://github.com/user-attachments/assets/22c57cdd-57cf-44c7-af9b-9a810f726757)
+
 
 💡 *Developed by [Avi](https://github.com/Avibhatnagar10)*
