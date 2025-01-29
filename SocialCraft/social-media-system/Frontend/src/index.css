@@ -1,0 +1,82 @@
+/* General body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9; /* Light background */
+  color: #333; /* Neutral text color for contrast */
+  line-height: 1.6;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5rem; /* Larger text size */
+  color: #007bff; /* Accent color */
+  font-weight: bold;
+}
+
+/* Main container styling */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff; /* Card-style white background */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  border-radius: 12px; /* Smooth rounded edges */
+  transition: transform 0.3s ease; /* Add animation */
+}
+
+.container:hover {
+  transform: translateY(-5px); /* Subtle hover lift */
+}
+
+/* Input and button styles */
+input, button {
+  width: 100%; /* Full width for mobile responsiveness */
+  padding: 12px 15px;
+  font-size: 16px;
+  margin: 10px 0; /* Spacing */
+  border: 1px solid #ccc; /* Neutral border */
+  border-radius: 6px; /* Rounded edges */
+  box-sizing: border-box; /* Prevent overflow issues */
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff; /* Highlight on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styles */
+button {
+  background-color: #007bff; /* Blue primary color */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover animation */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Subtle zoom effect */
+}
+
+button:active {
+  background-color: #003f7f; /* Even darker blue for active state */
+  transform: scale(0.95); /* Shrink effect on click */
+}
+
+/* Responsive container */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
