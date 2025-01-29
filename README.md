@@ -81,6 +81,7 @@ npm start
 ```
 
 ## 📌 API Endpoints
+
 ### User Submission
 - `POST /api/upload` - Submits user data and images.
 - `GET /api/submissions` - Fetches all submitted data.
@@ -88,7 +89,7 @@ npm start
 
 ## 🎨 UI Preview
 
-[Screenshot (188)](https://github.com/user-attachments/assets/22c57cdd-57cf-44c7-af9b-9a810f726757)
+![Screenshot (188)](https://github.com/user-attachments/assets/e5542a51-2d7d-4519-b101-4012d3d64696)
 
 ## 🤝 Contribution Guidelines
 1. Fork the repository.
